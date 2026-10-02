@@ -1,0 +1,54 @@
+# Entornos y Python
+.venv/
+.uv-cache/
+.uv-python/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+
+# Datasets, pruebas generadas y resultados
+banco_prueba/
+lfw_test/
+resultado/
+resultado_*/
+*.log
+
+# Modelos y caches descargados
+.insightface/
+modelos/
+models/
+cache/
+*.onnx
+*.onnx.data
+
+# IDEs y herramientas
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage.xml
+.coverage
+htmlcov/
+
+# Sistema operativo y temporales
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Paquetes locales
+dist/
+build/
+*.egg-info/
+*.zip

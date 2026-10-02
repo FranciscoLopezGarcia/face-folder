@@ -1,0 +1,18 @@
+FACE FOLDER (macOS)
+===================
+
+Face Folder analiza una carpeta local, agrupa fotos por persona y copia los
+resultados a atleta_001, atleta_002, etc. Los casos dudosos quedan en revision.
+Nunca mueve, borra ni modifica los originales.
+
+Instalación:
+
+  bash install.command
+
+Uso:
+
+  bash start.command "/Users/tu_usuario/Fotos/Evento"
+
+También puedes ejecutar "bash Empezar.command" para conservar la experiencia
+de las versiones anteriores. Consulta README.md para formatos, limitaciones,
+privacidad y la importante restricción no comercial del modelo buffalo_l.
