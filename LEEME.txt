@@ -1,18 +1,26 @@
-FACE FOLDER (macOS)
-===================
+FACE FOLDER PARA macOS - GUÍA FÁCIL
+===================================
 
-Face Folder analiza una carpeta local, agrupa fotos por persona y copia los
-resultados a atleta_001, atleta_002, etc. Los casos dudosos quedan en revision.
-Nunca mueve, borra ni modifica los originales.
+No necesitas saber programar ni instalar Python.
 
-Instalación:
+1. Haz doble clic en el ZIP descargado para extraerlo.
+2. Abre la aplicación "Terminal" desde Aplicaciones > Utilidades.
+3. Escribe la palabra  bash  seguida de un espacio, sin presionar Enter todavía.
+4. Arrastra "Empezar.command" desde la carpeta extraída hasta Terminal.
+5. Presiona Enter.
+6. Arrastra la carpeta con tus fotos cuando el programa la solicite.
+7. Si quieres guardar el resultado en otro lugar, arrastra esa carpeta cuando
+   te lo pregunte. Si no, simplemente presiona Enter.
+8. Espera hasta que diga "Terminado".
 
-  bash install.command
+La primera vez necesita internet y puede tardar varios minutos porque prepara
+Python, las dependencias y el modelo facial. Las siguientes veces son más rápidas.
 
-Uso:
+Las fotos originales NUNCA se borran, mueven ni modifican. Face Folder crea
+copias dentro de resultado, resultado_2, etc.
 
-  bash start.command "/Users/tu_usuario/Fotos/Evento"
+AVISO: el modelo buffalo_l de InsightFace es sólo para investigación no
+comercial. Para trabajo profesional o comercial se necesita una licencia
+apropiada o un modelo diferente.
 
-También puedes ejecutar "bash Empezar.command" para conservar la experiencia
-de las versiones anteriores. Consulta README.md para formatos, limitaciones,
-privacidad y la importante restricción no comercial del modelo buffalo_l.
+Si algo falla, guarda una captura de TODA la ventana de Terminal.

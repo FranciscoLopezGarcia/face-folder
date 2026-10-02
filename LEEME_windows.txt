@@ -1,18 +1,25 @@
-FACE FOLDER (Windows)
-=====================
+FACE FOLDER PARA WINDOWS - GUIA FACIL
+=====================================
 
-Face Folder analiza una carpeta local, agrupa fotos por persona y copia los
-resultados a atleta_001, atleta_002, etc. Los casos dudosos quedan en revision.
-Nunca mueve, borra ni modifica los originales.
+No necesitas saber programar ni instalar Python.
 
-Instalación:
+1. Haz clic derecho sobre el archivo ZIP que descargaste.
+2. Elige "Extraer todo..." y luego "Extraer".
+3. Abre la carpeta extraida.
+4. Haz doble clic en "Empezar.bat".
+5. Arrastra la carpeta con tus fotos a la ventana negra y presiona Enter.
+6. Si quieres guardar el resultado en otro lugar, arrastra esa carpeta cuando
+   te lo pregunte. Si no, simplemente presiona Enter.
+7. Espera hasta que diga "Terminado".
 
-  install_windows.bat
+La primera vez necesita internet y puede tardar varios minutos porque prepara
+Python, las dependencias y el modelo facial. Las siguientes veces son mas rapidas.
 
-Uso:
+Las fotos originales NUNCA se borran, mueven ni modifican. Face Folder crea
+copias dentro de resultado, resultado_2, etc.
 
-  start_windows.bat "C:\Fotos\Evento"
+AVISO: el modelo buffalo_l de InsightFace es solo para investigacion no
+comercial. Para trabajo profesional o comercial se necesita una licencia
+apropiada o un modelo diferente.
 
-También puedes hacer doble clic en Empezar.bat para conservar la experiencia
-de las versiones anteriores. Consulta README.md para formatos, limitaciones,
-privacidad y la importante restricción no comercial del modelo buffalo_l.
+Si algo falla, guarda una captura de TODA la ventana negra.

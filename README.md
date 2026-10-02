@@ -9,6 +9,35 @@ El análisis se realiza en la computadora. **Los originales nunca se borran, se
 mueven ni se modifican:** el programa sólo crea copias dentro de una nueva
 carpeta de salida.
 
+## Descarga fácil — no necesitas saber programar
+
+No hace falta instalar Git, escribir comandos ni configurar Python.
+
+### Windows
+
+[**⬇ Descargar Face Folder para Windows (.zip)**](https://github.com/FranciscoLopezGarcia/face-folder/releases/latest/download/Face-Folder-Windows.zip)
+
+1. Descarga el ZIP con el botón anterior.
+2. Haz clic derecho en el ZIP y elige **Extraer todo...**.
+3. Abre la carpeta extraída y haz doble clic en **Empezar.bat**.
+4. Arrastra la carpeta con las fotos a la ventana y presiona Enter.
+5. Espera hasta que diga **Terminado**.
+
+### macOS
+
+[**⬇ Descargar Face Folder para macOS (.zip)**](https://github.com/FranciscoLopezGarcia/face-folder/releases/latest/download/Face-Folder-macOS.zip)
+
+1. Descarga el ZIP y haz doble clic para extraerlo.
+2. Abre **Terminal** desde Aplicaciones → Utilidades.
+3. Escribe `bash` y un espacio, pero todavía no presiones Enter.
+4. Arrastra **Empezar.command** a Terminal y presiona Enter.
+5. Arrastra la carpeta con las fotos cuando el programa la solicite.
+
+La primera ejecución necesita internet y puede tardar varios minutos: prepara
+automáticamente Python, las dependencias y el modelo facial. Las siguientes
+ejecuciones reutilizan lo descargado. Dentro de cada ZIP también hay una guía
+`LEEME` con estos pasos.
+
 ## Ejemplo
 
 Entrada:
@@ -49,7 +78,7 @@ análisis para no procesar sus propias copias.
 
 El procesamiento usa CPU. No requiere Docker, GPU, servicios cloud ni cuentas.
 
-## Instalación en Windows
+## Instalación manual en Windows
 
 1. Instala Python desde [python.org](https://www.python.org/downloads/) y marca
    **Add Python to PATH** durante la instalación.
@@ -70,7 +99,7 @@ start_windows.bat "C:\Fotos\Evento"
 También puedes hacer doble clic en `start_windows.bat` y escribir o arrastrar
 la carpeta cuando la solicite.
 
-## Instalación en macOS
+## Instalación manual en macOS
 
 Abre Terminal en la carpeta del proyecto y ejecuta:
 
